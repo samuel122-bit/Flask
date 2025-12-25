@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css" type="text/css" media="all" />
+  <title>quiz app</title>
+  
+</head>
+
+<body>
+  <div class="quiz-container">
+    <div class="progress">
+      <div id="progress-Bar"></div>
+    </div>
+    <p id="timer"> time: 10s</p>
+    <h1 id="question">question here</h1>
+    <ul>
+     <li><button class="option">option 1</button></li>
+     <li><button class="option">option 2</button></li>
+     <li><button class="option">option 3</button></li>
+     <li><button class="option">option 4</button></li>
+     </ul>
+     <button id="nextBtn">next question</button>
+     <button onclick="previousQuestion()">previous question</button>
+  </div>
+  <script src="quiz.js" type="text/javascript"></script>
+</body>
+
+</html>
